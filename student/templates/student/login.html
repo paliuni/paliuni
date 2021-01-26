@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+{% load static i18n %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" href="{% static 'style.css' %}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body class="center-content">
+		<div class="container text-center" data-gr-c-s-loaded="true">
+			<h1 class="h3 mb-3 mt-5 font-weight-normal">Login</h1>
+			<div class="row justify-content-center">
+				<div class="">
+					<form class="form-signin" method="post">
+						{% csrf_token %}
+						<div class="text-danger text-left"> {{ form.errors }} </div>
+						<label for="inputEmail" class="sr-only">Email address</label>
+						<input type="name" id="id_username" name="username" class="form-control" placeholder="User Name" value="{{ username }}">
+						<label for="inputPassword" class="sr-only mt-2">Password</label>
+						<input type="password" id="id_password" name="password" class="form-control" placeholder="Password" value="{{ password }}">
+						<div class="checkbox mb-3">
+							<label>
+								<input type="checkbox" value="remember-me"> Remember me
+							</label>
+						</div>
+						<button class="btn btn-lg btn-info btn-block mb-4" type="submit" value="OK">Sign in</button>
+						<a href="/student/register/" >Register</a>
+					</form>
+				</div>
+			</div>
+			<div>
+				{% for message in massages %}
+				<h3> {{messages}} </h3>
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>
+

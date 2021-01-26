@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" href="{% static 'style.css' %}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body class="center-content">
+		<div class="container" data-gr-c-s-loaded="true">
+			<div class="contaimer">
+				<h1 class="display-4"> Registration </h1>
+				<div class="row">
+					<div class="col-lg-8">
+						<form method="post">
+							{% csrf_token %}
+							<div class="form-group mt-5">
+								<label for="exampleInputPassword1">First Name</label>
+								<div class="text-danger"> {{ student_form.first_name.errors }} </div>
+								{{ student_form.first_name }}
+							</div>
+							<div class="form-group mt-5">
+								<label for="exampleInputPassword1">Last Name</label>
+								<div class="text-danger"> {{ student_form.last_name.errors }} </div>
+								{{ student_form.last_name }}
+							</div>
+							<div class="form-group mt-5">
+								<label for="exampleInputPassword1">User Name</label>
+								<div class="text-danger"> {{ student_form.username.errors }} </div>
+								{{ student_form.username }}
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email address</label>
+								<div class="text-danger"> {{ student_form.email.errors }} </div>
+								{{ student_form.email }}
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								{{ student_form.password1 }}
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Confirm Password</label>
+								<div class="text-danger"> {{ student_form.password2.errors }} </div>
+								{{ student_form.password2 }}
+							</div>
+							<button type="submit" class="btn btn-primary">Register</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script>
+		$(function () {
+			$('#id_first_name, #id_last_name, #id_username, #id_email, #id_password1, #id_password2').addClass('form-control');
+
+		});
+	</script>
+</html>
+

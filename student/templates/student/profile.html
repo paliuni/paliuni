@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+
+<div class="container pt-0">
+	<div class="d-flex flex-row-reverse bd-highlight">
+		<div class="p-2 bd-highlight"><a href="/user/logout/" class="btn btn-info">Logout</a></div>
+	</div>
+	{% for video in videos %}
+
+	<video class="embed-responsive embed-responsive-16by9 mt-5" controls="controls">
+		<source src="{{video.video.url}}" type="video/mp4"/>
+	</video>
+
+	{% endfor %}
+</div>
+{% endblock %}
