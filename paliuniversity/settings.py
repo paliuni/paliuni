@@ -26,7 +26,7 @@ SECRET_KEY = '8a8^d6$_hqn2kme5db%!b)u3wh$bmx&snxd(8)+7*cjv-p*_)z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bpcht.dev-dd.com']
+ALLOWED_HOSTS = ['bpcht.dev-dd.com', 'www.bpcht.org']
 
 
 # Application definition
