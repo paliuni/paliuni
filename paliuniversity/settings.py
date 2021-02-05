@@ -135,11 +135,34 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-LANGUAGES = [
-        ('ja', 'Japanese'),
-        ('en', 'English'),
-        ]
-
 LOGIN_URL = '/user/login/'
 
 LOGIN_REDIRECT_URL = '/user/profile/'
+
+from django.conf import global_settings
+
+gettext_noop = lambda s: s
+
+LANGUAGES = [
+        ('ja', 'Japanese'),
+        ('en', 'English'),
+        ('si', gettext_noop('Sinhala')),
+        ]
+
+EXTRA_LANG_INFO = {
+        'si': {
+            'bidi': False, # right-to-left
+            'code': 'si',
+            'name': 'Sinhala',
+            'name_local': u"\u0DC3\u0DD2\u0D82\u0DC4\u0DBD"
+            },
+        }
+
+# Add custom languages not provided by Django
+import django.conf.locale
+LANG_INFO = dict(django.conf.locale.LANG_INFO, **EXTRA_LANG_INFO)
+django.conf.locale.LANG_INFO = LANG_INFO
+
+# Languages using BiDi (right-to-left) layout
+LANGUAGES_BIDI = global_settings.LANGUAGES_BIDI + ["si"]
+

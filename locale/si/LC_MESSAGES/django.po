@@ -8,85 +8,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 11:13+0000\n"
+"POT-Creation-Date: 2021-02-02 10:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: home/templates/home/base.html:74
 msgid "Home"
-msgstr "ホーム"
+msgstr "මුල් පිටුව"
 
 #: home/templates/home/base.html:75
 msgid "Why BPCHT"
-msgstr ""
+msgstr "BPCHT කුමකටද"
 
 #: home/templates/home/base.html:76
-#, fuzzy
-#| msgid "About Us"
 msgid "About BPCHT"
-msgstr "我が使命"
+msgstr "BPCHT පිළිබඳ"
 
 #: home/templates/home/base.html:77
 msgid "Available Course"
-msgstr ""
+msgstr "පවතින පාඨමාලා"
 
 #: home/templates/home/base.html:78 home/templates/home/index.html:78
 msgid "Notices"
-msgstr ""
+msgstr "දැන්වීම්"
 
 #: home/templates/home/base.html:79 home/templates/home/index.html:79
 msgid "Blog"
-msgstr "ブロック"
+msgstr "හහහහහහහහ"
 
 #: home/templates/home/base.html:80 home/templates/home/index.html:80
 msgid "Staff"
-msgstr ""
+msgstr "කාර්ය මණ්ඩලය"
 
 #: home/templates/home/base.html:91 home/templates/home/index.html:91
 msgid "Contact"
-msgstr "お問い合わせ"
+msgstr "අප අමතන්න"
 
 #: home/templates/home/index.html:74
 msgid "home"
-msgstr ""
+msgstr "මුල් පිටුව"
 
 #: home/templates/home/index.html:75
 msgid "why bpcht"
-msgstr ""
+msgstr "BPCHT කුමකටද"
 
 #: home/templates/home/index.html:76
 msgid "about bpcht"
-msgstr ""
+msgstr "BPCHT පිළිබඳ"
 
 #: home/templates/home/index.html:77
 msgid "available course"
-msgstr ""
+msgstr "පවතින පාඨමාලා"
 
 #: home/templates/home/index.html:122
-msgid "Buddhist and Pali College Hachioji Tokyo"
-msgstr "東京八王子仏教パリ語カレッジ"
+msgid "uddhist and Pali College Hachioji Tokyo"
+msgstr ""
 
 #: home/templates/home/index.html:394
 msgid "Address"
-msgstr "住所"
+msgstr "ලිපිනය"
 
 #: home/templates/home/index.html:395
 msgid "Shouzanji 1693-2 Yamatamachi, Hachioji-shi, Tokyo 193-0933, Japan"
-msgstr "〒193-0933　東京都八王子市山田町1693-2 正山寺"
+msgstr ""
 
 #: paliuniversity/settings.py:149
 msgid "Sinhala"
 msgstr ""
-
-#~ msgid "Learning Japanese"
-#~ msgstr "日本語学習"
-
-#~ msgid "Service"
-#~ msgstr "サービス"
-
-#~ msgid "Team"
-#~ msgstr "日本語チーム"
