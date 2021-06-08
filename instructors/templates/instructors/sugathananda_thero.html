@@ -1,11 +1,12 @@
 {% extends 'home/base.html' %}
+{% load static i18n %}
 
 {% block content %}
 <div class="container mt-5">
 	<div class="container">
 		<div class="row">
 			<div class="blog pt-5">
-				<h2>Rev Makulelle Sugathananda Thero</h2>
+				<h2>{% trans "Rev Makulelle Sugathananda Thero" %}</h2>
 			</div>
 		</div>
 	</div>
@@ -16,17 +17,11 @@
 			<div class="col">
 				<div class="box wow fadeInRight">
 					<div class="icon"><img class="lec_img mr-5" src="/media/Devananda_Thero.jpg"/></div>
-					<p class="description ml-0">I have completed English medium B.A degree in Buddhist and Pāli University of Sri
-					Lanka and followed English Language &Literature, Buddhist Philosophy and Pali as the
-					subjects. Advanced Certificate Course in English was completed. I have completed one-year English medium MA degree (Buddhist Studies) in University
-					of Kelaniya. I continue two-year English medium MA degree (Linguistics) in University of Kelaniya
-					(one year finished). I have presented two presentations in the conferences held at our University. I have been regularly teaching in the English workshops for the Pirivena students
-					conducted by the Department of English. I was the editor of ‘’AURORA” (Journal of English Studies) in 2016.
-					</p>
+					<p class="description ml-0">{% blocktranslate %}I have completed English medium B.A degree in Buddhist and Pāli University of Sri Lanka and followed English Language &Literature, Buddhist Philosophy and Pali as the subjects. Advanced Certificate Course in English was completed. I have completed one-year English medium MA degree (Buddhist Studies) in University of Kelaniya. I continue two-year English medium MA degree (Linguistics) in University of Kelaniya(one year finished). I have presented two presentations in the conferences held at our University. I have been regularly teaching in the English workshops for the Pirivena students conducted by the Department of English. I was the editor of ‘’AURORA” (Journal of English Studies) in 2016.  {% endblocktranslate %}</p>
 					<br>
 					<div class="ml-0"> 
-						<h4> Subjects: </h4>
-						<p>Geographical Expansion of Therayada Buddhism </p>
+						<h4>{% trans " Subjects: " %}</h4>
+						<p>{% trans "Geographical Expansion of Therayada Buddhism " %}</p>
 					</div>
 				</div>
 			</div>

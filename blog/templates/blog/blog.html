@@ -1,11 +1,12 @@
 {% extends 'home/base.html' %}
+{% load static i18n %}
 
 {% block content %}
 	<section id="services">
 		<div class="container">
 			<div class="section-header">
-				<h2>Blog</h2>
-				<p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+				<h2>{% trans "Blog" %}</h2>
+				<p>{% trans "Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore" %}</p>
 			</div>
 
 			<div class="container">
@@ -26,14 +27,14 @@
 						</br>
 						</br>
 						</br>
-						<h3>Comments...</h3>
+						<h3>{% trans "Comments..." %}</h3>
 						{% if not blog.comments.all %}
-						<a href="{% url 'detail' slug=blog.slug %}/comment">Add Comment</a>
+						<a href="{% url 'detail' slug=blog.slug %}/comment">{% trans "Add Comment" %}</a>
 							</br>
 							</br>
-							No comments yet
+							{% trans "No comments yet" %}
 						{% else %}
-							<a href="{% url 'detail' slug=blog.slug %}/comment">Add Comment</a>
+						<a href="{% url 'detail' slug=blog.slug %}/comment">{% trans "Add Comment" %}</a>
 							</br>
 							</br>
 							{% for comment in blog.comments.all %}

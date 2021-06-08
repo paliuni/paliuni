@@ -1,11 +1,12 @@
 {% extends 'home/base.html' %}
+{% load static i18n %}
 
 {% block content %}
 <div class="container mt-5">
 	<div class="container">
 		<div class="row">
 			<div class="blog pt-5">
-				<h2>Ven. Paranagama Seewaleedhamma Thero</h2>
+				<h2>{% trans "Ven. Paranagama Seewaleedhamma Thero" %}</h2>
 			</div>
 		</div>
 	</div>
@@ -19,9 +20,9 @@
 					<br>
 					<p class="description ml-0"></p>
 					<div class="ml-0"> 
-						<h4> Subjects: </h4>
-						<p> Buddhist Social Dimensions, Diploma course 2020 </p>
-						<p> Pali Language (very basic)</p>
+						<h4>{% trans " Subjects: " %}</h4>
+						<p>{% trans " Buddhist Social Dimensions, Diploma course 2020 " %}</p>
+						<p>{% trans " Pali Language (very basic)" %}</p>
 					</div>
 				</div>
 			</div>

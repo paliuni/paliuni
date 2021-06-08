@@ -1,11 +1,12 @@
 {% extends 'home/base.html' %}
+{% load static i18n %}
 
 {% block content %}
 <div class="container mt-5">
 	<div class="container">
 		<div class="row">
 			<div class="blog pt-5">
-				<h2>Dr. Bhanthe Kardetiyana Gunaratana Thero</h2>
+				<h2>{% trans "Dr. Bhanthe Kardetiyana Gunaratana Thero" %}</h2>
 			</div>
 		</div>
 	</div>
@@ -16,25 +17,11 @@
 			<div class="col">
 				<div class="box wow fadeInRight">
 					<div class="icon"><img class="lec_img mr-5" src="/media/Devananda_Thero.jpg"/></div>
-					<p class="description ml-0">He was born in Kegall district Sabaragamuwa province in Sri-Lanka in
-					1954.04.15. After completion of the basic monastic practice, he received
-					ordination in 1965 in Alawwa temple which located in Kurunegala
-					district. Ven.K.Gunaratana Thero completed his primary and secondary
-					monastic education of the teritorial monastic education centres (Pirivena)
-					succefully. After that he joined to the Kelaniya university for his higher
-					education and recivieved his first (bachelor of arts) degree. In addition to this, he obtained another
-					bachelor of arts degree from Buddhist and Pali university in Sri-Lanka.Then after, he went abroad
-					for his higher study. He received master of philosophy degree with gold medal from Delhi
-					university in India. So, he was qualified to enrall for the course of Ph.D. directly. He received his
-					Ph.D. degree from the same university by submitting his thesis under the title of ‘Bodhisattva
-					Concept in Diomond Sutra’ (Vajra Chedika Prajnaa Paramita Sutra).He has been contributing his
-					tireless monastic service to the both of “Mahakaruna Buddhist society” and Srilankaramaya in
-					Singapore since 1986 as religious advisor.
-					</p>
+					<p class="description ml-0">{% blocktranslate %}He was born in Kegall district Sabaragamuwa province in Sri-Lanka in 1954.04.15. After completion of the basic monastic practice, he received ordination in 1965 in Alawwa temple which located in Kurunegala district. Ven.K.Gunaratana Thero completed his primary and secondary monastic education of the teritorial monastic education centres (Pirivena) succefully. After that he joined to the Kelaniya university for his higher education and recivieved his first (bachelor of arts) degree. In addition to this, he obtained another bachelor of arts degree from Buddhist and Pali university in Sri-Lanka.Then after, he went abroad for his higher study. He received master of philosophy degree with gold medal from Delhi university in India. So, he was qualified to enrall for the course of Ph.D. directly. He received his Ph.D. degree from the same university by submitting his thesis under the title of ‘Bodhisattva Concept in Diomond Sutra’ (Vajra Chedika Prajnaa Paramita Sutra).He has been contributing his tireless monastic service to the both of “Mahakaruna Buddhist society” and Srilankaramaya in Singapore since 1986 as religious advisor.{% endblocktranslate %}</p>
 					<br>
 					<div class="ml-0"> 
-						<h4> Subjects: </h4>
-						<p>Early History of Buddhism up to the Third Century B.C</p>
+						<h4>{% trans " Subjects: " %}</h4>
+						<p>{% trans "Early History of Buddhism up to the Third Century B.C" %}</p>
 					</div>
 				</div>
 			</div>

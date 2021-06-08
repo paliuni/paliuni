@@ -1,10 +1,11 @@
 {% extends 'home/base.html' %}
+{% load static i18n %}
 
 {% block content %}
 
 <div class="container pt-0">
 	<div class="d-flex flex-row-reverse bd-highlight">
-		<div class="p-2 bd-highlight"><a href="/user/logout/" class="btn btn-info">Logout</a></div>
+		<div class="p-2 bd-highlight"><a href="/user/logout/" class="btn btn-info">{% trans "Logout" %}</a></div>
 	</div>
 	{% for video in videos %}
 

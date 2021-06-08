@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 10:54+0000\n"
+"POT-Creation-Date: 2021-06-08 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,338 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: blog/templates/blog/blog.html:8 blog/templates/blog/index.html:9
+#: home/templates/home/base.html:79 home/templates/home/index.html:79
+#: home/templates/home/index.html:231
+msgid "Blog"
+msgstr "හහහහහහහහ"
+
+#: blog/templates/blog/blog.html:9 blog/templates/blog/index.html:10
+#: home/templates/home/index.html:232
+msgid ""
+"Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit "
+"veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram "
+"noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export "
+"irure minim illum fore"
+msgstr ""
+
+#: blog/templates/blog/blog.html:30
+msgid "Comments..."
+msgstr ""
+
+#: blog/templates/blog/blog.html:32 blog/templates/blog/blog.html:37
+#: blog/templates/blog/comment.html:8 blog/templates/blog/comment.html:24
+msgid "Add Comment"
+msgstr ""
+
+#: blog/templates/blog/blog.html:35
+msgid "No comments yet"
+msgstr ""
+
+#: blog/templates/blog/comment.html:16
+msgid "Name"
+msgstr ""
+
+#: blog/templates/blog/comment.html:20
+msgid "Comment"
+msgstr ""
+
+#: blog/templates/blog/comment.html:27
+msgid "Back"
+msgstr ""
+
+#: blog/templates/blog/index.html:29
+#: courseinfo/templates/courseinfo/material.html:9
+msgid "Download"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:12
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:12
+#: courseinfo/templates/courseinfo/ma_1year.html:12
+#: courseinfo/templates/courseinfo/ma_2year.html:12
+#: courseinfo/templates/courseinfo/mphil.html:12
+#: courseinfo/templates/courseinfo/phd.html:12
+msgid "Course Name"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:13
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:13
+#: courseinfo/templates/courseinfo/ma_1year.html:13
+#: courseinfo/templates/courseinfo/ma_2year.html:13
+#: courseinfo/templates/courseinfo/mphil.html:13
+#: courseinfo/templates/courseinfo/phd.html:13
+msgid "Diploma in Buddhism"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:15
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:15
+#: courseinfo/templates/courseinfo/ma_1year.html:15
+#: courseinfo/templates/courseinfo/ma_2year.html:15
+#: courseinfo/templates/courseinfo/mphil.html:15
+#: courseinfo/templates/courseinfo/phd.html:15
+msgid "Course Content"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:17
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:17
+#: courseinfo/templates/courseinfo/ma_1year.html:17
+#: courseinfo/templates/courseinfo/ma_2year.html:17
+#: courseinfo/templates/courseinfo/mphil.html:17
+#: courseinfo/templates/courseinfo/phd.html:17
+msgid "Early Buddhism - Basic Doctrines"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:18
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:18
+#: courseinfo/templates/courseinfo/ma_1year.html:18
+#: courseinfo/templates/courseinfo/ma_2year.html:18
+#: courseinfo/templates/courseinfo/mphil.html:18
+#: courseinfo/templates/courseinfo/phd.html:18
+msgid "Buddhist Social Dimensions"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:19
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:19
+#: courseinfo/templates/courseinfo/ma_1year.html:19
+#: courseinfo/templates/courseinfo/ma_2year.html:19
+#: courseinfo/templates/courseinfo/mphil.html:19
+#: courseinfo/templates/courseinfo/phd.html:19
+msgid "Geographical Expansion of Theravada Buddhism"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:20
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:20
+#: courseinfo/templates/courseinfo/ma_1year.html:20
+#: courseinfo/templates/courseinfo/ma_2year.html:20
+#: courseinfo/templates/courseinfo/mphil.html:20
+#: courseinfo/templates/courseinfo/phd.html:20
+msgid "Early History of Buddhism up to 3rd Century B.C."
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:21
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:21
+#: courseinfo/templates/courseinfo/ma_1year.html:21
+#: courseinfo/templates/courseinfo/ma_2year.html:21
+#: courseinfo/templates/courseinfo/mphil.html:21
+#: courseinfo/templates/courseinfo/phd.html:21
+msgid "Pali Qualifying Paper (Optional)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:24
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:24
+#: courseinfo/templates/courseinfo/ma_1year.html:24
+#: courseinfo/templates/courseinfo/ma_2year.html:24
+#: courseinfo/templates/courseinfo/mphil.html:24
+#: courseinfo/templates/courseinfo/phd.html:24
+msgid "Eligibility"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:25
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:25
+#: courseinfo/templates/courseinfo/ma_1year.html:25
+#: courseinfo/templates/courseinfo/ma_2year.html:25
+#: courseinfo/templates/courseinfo/mphil.html:25
+#: courseinfo/templates/courseinfo/phd.html:25
+msgid ""
+"Above 18 years of age. Ability to read and write English. Some basic "
+"knowledge of Buddhism would be an advantage."
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:27
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:27
+#: courseinfo/templates/courseinfo/ma_1year.html:27
+#: courseinfo/templates/courseinfo/ma_2year.html:27
+#: courseinfo/templates/courseinfo/mphil.html:27
+#: courseinfo/templates/courseinfo/phd.html:27
+msgid "Fees"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:29
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:29
+#: courseinfo/templates/courseinfo/ma_1year.html:29
+#: courseinfo/templates/courseinfo/ma_2year.html:29
+#: courseinfo/templates/courseinfo/mphil.html:29
+#: courseinfo/templates/courseinfo/phd.html:29
+msgid ""
+"¥5,700 - Registration Fees - Buddhist and Pali University, Sri Lanka (in USD "
+"only)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:30
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:30
+#: courseinfo/templates/courseinfo/ma_1year.html:30
+#: courseinfo/templates/courseinfo/ma_2year.html:30
+#: courseinfo/templates/courseinfo/mphil.html:30
+#: courseinfo/templates/courseinfo/phd.html:30
+msgid "¥18.720 - Maintenance Fees - BPCHT"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:31
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:31
+#: courseinfo/templates/courseinfo/ma_1year.html:31
+#: courseinfo/templates/courseinfo/ma_2year.html:31
+#: courseinfo/templates/courseinfo/mphil.html:31
+#: courseinfo/templates/courseinfo/phd.html:31
+msgid ""
+"¥10,400 - Examination Fees - Buddhist and Pali University, Sri Lanka (in USD "
+"only)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:34
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:34
+#: courseinfo/templates/courseinfo/ma_1year.html:34
+#: courseinfo/templates/courseinfo/ma_2year.html:34
+#: courseinfo/templates/courseinfo/mphil.html:34
+#: courseinfo/templates/courseinfo/phd.html:34
+msgid "Registration Date"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:35
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:35
+#: courseinfo/templates/courseinfo/ma_1year.html:35
+#: courseinfo/templates/courseinfo/ma_2year.html:35
+#: courseinfo/templates/courseinfo/mphil.html:35
+#: courseinfo/templates/courseinfo/phd.html:35
+msgid "1 Aug to 30 Sep"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:37
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:37
+#: courseinfo/templates/courseinfo/ma_1year.html:37
+#: courseinfo/templates/courseinfo/ma_2year.html:37
+#: courseinfo/templates/courseinfo/mphil.html:37
+#: courseinfo/templates/courseinfo/phd.html:37
+msgid "How To register"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:38
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:38
+#: courseinfo/templates/courseinfo/ma_1year.html:38
+#: courseinfo/templates/courseinfo/ma_2year.html:38
+#: courseinfo/templates/courseinfo/mphil.html:38
+#: courseinfo/templates/courseinfo/phd.html:38
+msgid "Required documents:"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:40
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:40
+#: courseinfo/templates/courseinfo/ma_1year.html:40
+#: courseinfo/templates/courseinfo/ma_2year.html:40
+#: courseinfo/templates/courseinfo/mphil.html:40
+#: courseinfo/templates/courseinfo/phd.html:40
+msgid "Application form"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:40
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:40
+#: courseinfo/templates/courseinfo/ma_1year.html:40
+#: courseinfo/templates/courseinfo/ma_2year.html:40
+#: courseinfo/templates/courseinfo/mphil.html:40
+#: courseinfo/templates/courseinfo/phd.html:40
+msgid "(Click here to download the Application)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:41
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:41
+#: courseinfo/templates/courseinfo/ma_1year.html:41
+#: courseinfo/templates/courseinfo/ma_2year.html:41
+#: courseinfo/templates/courseinfo/mphil.html:41
+#: courseinfo/templates/courseinfo/phd.html:41
+msgid "CV/Personal resume *Free format, 1-3 sheets of A4 paper"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:42
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:42
+#: courseinfo/templates/courseinfo/ma_1year.html:42
+#: courseinfo/templates/courseinfo/ma_2year.html:42
+#: courseinfo/templates/courseinfo/mphil.html:42
+#: courseinfo/templates/courseinfo/phd.html:42
+msgid "Copy of receipt of the application fee"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:43
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:43
+#: courseinfo/templates/courseinfo/ma_1year.html:43
+#: courseinfo/templates/courseinfo/ma_2year.html:43
+#: courseinfo/templates/courseinfo/mphil.html:43
+#: courseinfo/templates/courseinfo/phd.html:43
+msgid "Passport copy (non-Japanese applicants only)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:44
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:44
+#: courseinfo/templates/courseinfo/ma_1year.html:44
+#: courseinfo/templates/courseinfo/ma_2year.html:44
+#: courseinfo/templates/courseinfo/mphil.html:44
+#: courseinfo/templates/courseinfo/phd.html:44
+msgid ""
+"Residence card copy [both sides] (non-Japanese applicants residing in Japan "
+"only)"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:45
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:45
+#: courseinfo/templates/courseinfo/ma_1year.html:45
+#: courseinfo/templates/courseinfo/ma_2year.html:45
+#: courseinfo/templates/courseinfo/mphil.html:45
+#: courseinfo/templates/courseinfo/phd.html:45
+msgid "Other education certificates"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:48
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:48
+#: courseinfo/templates/courseinfo/ma_1year.html:48
+#: courseinfo/templates/courseinfo/ma_2year.html:48
+#: courseinfo/templates/courseinfo/mphil.html:48
+#: courseinfo/templates/courseinfo/phd.html:48
+msgid ""
+"After completing the required documents, send them into the following "
+"address in register mail."
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:53
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:53
+#: courseinfo/templates/courseinfo/ma_1year.html:53
+#: courseinfo/templates/courseinfo/ma_2year.html:53
+#: courseinfo/templates/courseinfo/mphil.html:53
+#: courseinfo/templates/courseinfo/phd.html:53
+msgid "Remarks"
+msgstr ""
+
+#: courseinfo/templates/courseinfo/ba_1year.html:54
+#: courseinfo/templates/courseinfo/dip_in_buddhism.html:54
+#: courseinfo/templates/courseinfo/ma_1year.html:54
+#: courseinfo/templates/courseinfo/ma_2year.html:54
+#: courseinfo/templates/courseinfo/mphil.html:54
+#: courseinfo/templates/courseinfo/phd.html:54
+msgid ""
+"Successful candidates are eligible to proceed to the 3-year Bachelor of Arts "
+"(BA) and then the 1-year Master of Arts (MA) in Buddhist Studies."
+msgstr ""
+
 #: home/templates/home/base.html:74
 msgid "Home"
 msgstr "මුල් පිටුව"
 
-#: home/templates/home/base.html:75
+#: home/templates/home/base.html:75 home/templates/home/index.html:150
 msgid "Why BPCHT"
 msgstr "BPCHT කුමකටද"
 
-#: home/templates/home/base.html:76
+#: home/templates/home/base.html:76 home/templates/home/index.html:165
 msgid "About BPCHT"
 msgstr "BPCHT පිළිබඳ"
 
-#: home/templates/home/base.html:77
+#: home/templates/home/base.html:77 home/templates/home/index.html:183
 msgid "Available Course"
 msgstr "පවතින පාඨමාලා"
 
 #: home/templates/home/base.html:78 home/templates/home/index.html:78
+#: home/templates/home/index.html:211
 msgid "Notices"
 msgstr "දැන්වීම්"
 
-#: home/templates/home/base.html:79 home/templates/home/index.html:79
-msgid "Blog"
-msgstr "හහහහහහහහ"
-
 #: home/templates/home/base.html:80 home/templates/home/index.html:80
+#: home/templates/home/index.html:257
 msgid "Staff"
 msgstr "කාර්ය මණ්ඩලය"
 
@@ -66,17 +373,478 @@ msgid "available course"
 msgstr "පවතින පාඨමාලා"
 
 #: home/templates/home/index.html:122
-msgid "uddhist and Pali College Hachioji Tokyo"
+msgid "Buddhist and Pali College Hachioji Tokyo"
 msgstr ""
 
-#: home/templates/home/index.html:394
+#: home/templates/home/index.html:151
+msgid ""
+"Early Buddhism, which has a vast collection of best teachings for self-"
+"improvement had been preserved in Sri Lanka for more than 2600 years. "
+"Buddhist and Pali University in Sri Lanka took the necessary action to "
+"deliver this national heritage to the world."
+msgstr ""
+
+#: home/templates/home/index.html:153
+msgid ""
+"However, to transfer this knowledge, Language is a big obstacle—however, Ven."
+"Yalagamuwe Dhammissara Anunayaka Thero took this challenge to enlightening "
+"Japanese people in English and Japanese. Now you have a great opportunity to "
+"take various Dhamma courses from Buddhist and Pali University in Sri Lanka, "
+"living in Japan.  Most courses are conducting online, and all the "
+"examinations are held in Japan. The tuition fees are also very reasonable."
+msgstr ""
+
+#: home/templates/home/index.html:155
+msgid ""
+"So, we invite all of you to join us and use the teachings for your self-"
+"improvement. May the triple Gems be blessing you!!"
+msgstr ""
+
+#: home/templates/home/index.html:166
+msgid ""
+"Buddhist and Pali College Hachioji Tokyo (BPCHT) was established in Japan as "
+"an affiliated institute of Welcome to the Buddhist and Pali University of "
+"Sri Lanka in 2020.  BPCHT is authorized to have lectures and examinations "
+"and give necessary guidance regarding degree and diploma programs in the "
+"Buddhist and Pali University of Sri Lanka."
+msgstr ""
+
+#: home/templates/home/index.html:168
+msgid "Vision"
+msgstr ""
+
+#: home/templates/home/index.html:169
+msgid "Delivering Dhamma in Japan in formal education manner."
+msgstr ""
+
+#: home/templates/home/index.html:171
+msgid "Mission"
+msgstr ""
+
+#: home/templates/home/index.html:172
+msgid ""
+"To provide tertiary education in Buddhist Studies leading to award Diploma, "
+"BA, MA of the Buddhist &amp; Pali University of Sri Lanka and Ph. D."
+msgstr ""
+
+#: home/templates/home/index.html:373
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact Us"
+msgstr "අප අමතන්න"
+
+#: home/templates/home/index.html:374
+msgid "Please feel free to contact us"
+msgstr ""
+
+#: home/templates/home/index.html:382
 msgid "Address"
 msgstr "ලිපිනය"
 
-#: home/templates/home/index.html:395
+#: home/templates/home/index.html:383
 msgid "Shouzanji 1693-2 Yamatamachi, Hachioji-shi, Tokyo 193-0933, Japan"
+msgstr ""
+
+#: home/templates/home/index.html:390 home/templates/home/index.html:424
+msgid "Phone Number"
+msgstr ""
+
+#: home/templates/home/index.html:398
+msgid "Email"
+msgstr ""
+
+#: home/templates/home/index.html:416
+msgid ">Name"
+msgstr ""
+
+#: home/templates/home/index.html:420 student/templates/student/login.html:21
+#: student/templates/student/registration.html:38
+#, fuzzy
+#| msgid "Address"
+msgid "Email address"
+msgstr "ලිපිනය"
+
+#: home/templates/home/index.html:428
+msgid "Message"
+msgstr ""
+
+#: home/templates/home/index.html:432
+msgid "Send Message"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:9
+msgid "Ven Yalagamuwe-Dhammissara-Anunayaka-Thero"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:20
+msgid "Profile: "
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:22
+msgid "1983  Graduated from The Buddhist and Pali University of Sri Lanka"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:23
+msgid "1989  Gruduated from The University of PERADENIYA, Sri Lanka"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:24
+msgid ""
+"1985～1986  Headmaster of Sri DHAMMANANDA Pirivena (Sri DHAMMANANDA monastic "
+"college) in Badulla, Uva province, Sri Lanka"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:25
+msgid ""
+"1990～2003 Chief Incumbent of Japan Sri Lanka International Buddhist Center "
+"in Setagaya-ward, Tokyo, Japan"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:26
+msgid "1997～  Japan Sangha chief of UDARATA AMARAPURA Maha Nikayara"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:27
+msgid ""
+"2000～  Chief Incumbent of VIHARAGODA DIMBULANA PURANA Viharaya (temple) in "
+"Badulla, Uva province, Sri Lanka　 "
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:28
+msgid "2003　 Appointed the Executive of  UDARATA AMARAPURA Maha Nikayara"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:29
+msgid ""
+"2003～  Chief Incumbent of the Sakamuni International Buddhist Center in "
+"Hachioji-city, Tokyo, Japan"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:30
+msgid ""
+"2008～  Director of Sri DHAMMANANDA Vidyatana Pirivena ( Sri DHAMMANANDA "
+"university-preparatory school) in Badulla, Uva province, Sri Lanka"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:31
+msgid ""
+"2008〜　Hon. President & Chief Sanghanayaka of NGO Japan Sri Lanka "
+"International Cultural and Social Development Foundation（JSICSF）"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:32
+msgid "2010～　Anunayake (Vice President ) of UDARATA AMARAPURA Maha Nikayara"
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:36
+#: instructors/templates/instructors/devananda_thero.html:23
+#: instructors/templates/instructors/dilrukshi.html:23
+#: instructors/templates/instructors/gunaratana_thero.html:23
+#: instructors/templates/instructors/seewaleedhamma_thero.html:23
+#: instructors/templates/instructors/sugathananda_thero.html:23
+msgid " Subjects: "
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:37
+#: instructors/templates/instructors/devananda_thero.html:24
+#: instructors/templates/instructors/seewaleedhamma_thero.html:24
+msgid " Buddhist Social Dimensions, Diploma course 2020 "
+msgstr ""
+
+#: instructors/templates/instructors/anunayaka_thero.html:38
+#: instructors/templates/instructors/devananda_thero.html:25
+#: instructors/templates/instructors/seewaleedhamma_thero.html:25
+msgid " Pali Language (very basic)"
+msgstr ""
+
+#: instructors/templates/instructors/devananda_thero.html:9
+msgid "Dr. Bhanthe Bokanoruwe Devananda Thero"
+msgstr ""
+
+#: instructors/templates/instructors/devananda_thero.html:20
+msgid ""
+"Bhanthe Bokanoruwe Devananda received ordination at the age of fourteen and "
+"entered higher ordination in 1973. He completed his secondary education in "
+"1975 and in 1980 he obtained a Bachelor of Arts degree in Economics from the "
+"University of Kelaniya, Sri Lanka.  He served as the Principal of Buddhist "
+"College from 1980 to 1990 and subsequently worked as a teacher in a "
+"Government school for a year. There after he pursued further studies in "
+"Buddhism and education.  He earned a post graduate diploma in Buddhist "
+"studies from the Kelaniya University in 1986 and a post graduate Diploma in "
+"Education in 1987 from the University of Colombo, Sri Lanka. In 1989 he "
+"obtained a Master degree in Buddhist studies from the Kelaniya University. "
+"There after he pursued graduate studies in Buddhist social studies abroad "
+"and was successful in obtaining a M Phil and a PhD in Buddhist social "
+"studies from the University of Delhi, India.  After completing his graduate "
+"studies in Delhi, Bhanthe Devananda engaged in teaching the Dhamma in "
+"Singapore, Taipei, Malaysia and Australia for nearly seven years. Major part "
+"of this period was spent in Malaysia as a resident monk at the Buddhist Maha "
+"Viharaya in Malaysia. He engaged in research on the social philosophy of "
+"Buddha as depicted in the Pali cannon that contains the Teachings of the "
+"Buddha in its pristine form. Hence, he is an authority on Theravada "
+"Buddhism. Several publications on selected Sutthas (especially Sathipatthana "
+"suttha that propounds meditation as discoursed by Buddha), Maha Samaya "
+"Sutta, Bojjhanga Sutta, my life is my mother, towards inner peace, an "
+"exposition of Yamaka Vagga, the supreme God at home, Social values of the "
+"Metta Sutta (in process of printing), Yamaka Vagga, and Buddhist stories for "
+"children and Sinhala grammar were authored by Bhanthe Devananda. He has "
+"published Dhamma articles and reviews in Buddhist News Letters in Singapore, "
+"Malaysia and Australia and newspapers in Sri Lanka. He is a scholar "
+"proficient in Pali, Sanskrit, classical Sinhala, Hindi and in English. He "
+"has produced digital media containing recitals of a few Sutthas, Buddhist "
+"hymns and Sinhala songs. His scholastic endeavors and achievements, and the "
+"commitment to the religious education of the community is fully recognized "
+"by the fact that he was appointed as a Justice of Peace for the Uva province "
+"in Sri Lanka. Bhante Devananda came to the United States in 2007 and has "
+"been the resident monk at the Florida Buddhist Vihara to date. He is "
+"actively engaged in teaching meditation and the Dhamma to devotees visiting "
+"the Vihara. He also takes part in Buddhist research activities with "
+"university students. Currently he is doing research on ‘Meditation as "
+"depicted in the Pali canon’. His present work Ven.Bokanoruwe Dewananda Thero "
+"is an esteemed researcher in the social philosophy the Buddha as Depicted in "
+"the Pali Canon. During his many years of researching the Pali Canon, he "
+"acquired degrees in Education and completed his Ph.D. at The University of "
+"Delhi in the field of Buddhist Social Studies. In these regards, Dr. "
+"Dewananda is eminently suited towards writing on the topics of “mother” and "
+"“parents” from the Buddhist perspective. "
+msgstr ""
+
+#: instructors/templates/instructors/dilrukshi.html:9
+msgid "Dr.Liyanage Dona Shyamini Dilrukshi "
+msgstr ""
+
+#: instructors/templates/instructors/dilrukshi.html:20
+msgid ""
+"A committed lecturer with successful completion of Bachelor of Business "
+"Administration Degree (University of Peradeniya, Sri-Lanka) and master of "
+"international Business (University of West of Scotland). Possessing "
+"excellent administrative, verbal, communication and written skills along "
+"with constructive and effective teaching methods which promote a stimulating "
+"learning environment."
+msgstr ""
+
+#: instructors/templates/instructors/dilrukshi.html:24
+msgid "Geographical expansion of Theravada Buddhism"
+msgstr ""
+
+#: instructors/templates/instructors/gunaratana_thero.html:9
+msgid "Dr. Bhanthe Kardetiyana Gunaratana Thero"
+msgstr ""
+
+#: instructors/templates/instructors/gunaratana_thero.html:20
+msgid ""
+"He was born in Kegall district Sabaragamuwa province in Sri-Lanka in "
+"1954.04.15. After completion of the basic monastic practice, he received "
+"ordination in 1965 in Alawwa temple which located in Kurunegala district. "
+"Ven.K.Gunaratana Thero completed his primary and secondary monastic "
+"education of the teritorial monastic education centres (Pirivena) "
+"succefully. After that he joined to the Kelaniya university for his higher "
+"education and recivieved his first (bachelor of arts) degree. In addition to "
+"this, he obtained another bachelor of arts degree from Buddhist and Pali "
+"university in Sri-Lanka.Then after, he went abroad for his higher study. He "
+"received master of philosophy degree with gold medal from Delhi university "
+"in India. So, he was qualified to enrall for the course of Ph.D. directly. "
+"He received his Ph.D. degree from the same university by submitting his "
+"thesis under the title of ‘Bodhisattva Concept in Diomond Sutra’ (Vajra "
+"Chedika Prajnaa Paramita Sutra).He has been contributing his tireless "
+"monastic service to the both of “Mahakaruna Buddhist society” and "
+"Srilankaramaya in Singapore since 1986 as religious advisor."
+msgstr ""
+
+#: instructors/templates/instructors/gunaratana_thero.html:24
+msgid "Early History of Buddhism up to the Third Century B.C"
+msgstr ""
+
+#: instructors/templates/instructors/prabath_samindra.html:6
+msgid " Dr.Bhanthe Bokanoruwe Devananda Thero "
+msgstr ""
+
+#: instructors/templates/instructors/prabath_samindra.html:7
+msgid ""
+"Bhanthe Bokanoruwe Devananda received ordination at the age of fourteen and "
+"entered higher ordination in 1973. He completed his secondary education in "
+"1975 and in 1980 he obtained a Bachelor of Arts degree in Economics from the "
+"University of Kelaniya, Sri Lanka.  He served as the Principal of Buddhist "
+"College from 1980 to 1990 and subsequently worked as a teacher in a "
+"Government school for a year. There after he pursued further studies in "
+"Buddhism and education.  He earned a post graduate diploma in Buddhist "
+"studies from the Kelaniya University in 1986 and a post graduate Diploma in "
+"Education in 1987 from the University of Colombo, Sri Lanka. In 1989 he "
+"obtained a Master degree in Buddhist studies from the Kelaniya University. "
+"There after he pursued graduate studies in Buddhist social studies abroad "
+"and was successful in obtaining a M Phil and a PhD in Buddhist social "
+"studies from the University of Delhi, India.  After completing his graduate "
+"studies in Delhi, Bhanthe Devananda engaged in teaching the Dhamma in "
+"Singapore, Taipei, Malaysia and Australia for nearly seven years. Major part "
+"of this period was spent in Malaysia as a resident monk at the Buddhist Maha "
+"Viharaya in Malaysia. He engaged in research on the social philosophy of "
+"Buddha as depicted in the Pali cannon that contains the Teachings of the "
+"Buddha in its pristine form. Hence, he is an authority on Theravada "
+"Buddhism. Several publications on selected Sutthas (especially Sathipatthana "
+"suttha that propounds meditation as discoursed by Buddha), Maha Samaya "
+"Sutta, Bojjhanga Sutta, my life is my mother, towards inner peace, an "
+"exposition of Yamaka Vagga, the supreme God at home, Social values of the "
+"Metta Sutta (in process of printing), Yamaka Vagga, and Buddhist stories for "
+"children and Sinhala grammar were authored by Bhanthe Devananda. He has "
+"published Dhamma articles and reviews in Buddhist News Letters in Singapore, "
+"Malaysia and Australia and newspapers in Sri Lanka. He is a scholar "
+"proficient in Pali, Sanskrit, classical Sinhala, Hindi and in English. He "
+"has produced digital media containing recitals of a few Sutthas, Buddhist "
+"hymns and Sinhala songs. His scholastic endeavors and achievements, and the "
+"commitment to the religious education of the community is fully recognized "
+"by the fact that he was appointed as a Justice of Peace for the Uva province "
+"in Sri Lanka. Bhante Devananda came to the United States in 2007 and has "
+"been the resident monk at the Florida Buddhist Vihara to date. He is "
+"actively engaged in teaching meditation and the Dhamma to devotees visiting "
+"the Vihara. He also takes part in Buddhist research activities with "
+"university students. Currently he is doing research on ‘Meditation as "
+"depicted in the Pali canon’. His present work Ven.Bokanoruwe Dewananda Thero "
+"is an esteemed researcher in the social philosophy the Buddha as Depicted in "
+"the Pali Canon. During his many years of researching the Pali Canon, he "
+"acquired degrees in Education and completed his Ph.D. at The University of "
+"Delhi in the field of Buddhist Social Studies. In these regards, Dr. "
+"Dewananda is eminently suited towards writing on the topics of “mother” and "
+"“parents” from the Buddhist perspective."
+msgstr ""
+
+#: instructors/templates/instructors/seewaleedhamma_thero.html:9
+msgid "Ven. Paranagama Seewaleedhamma Thero"
+msgstr ""
+
+#: instructors/templates/instructors/sugathananda_thero.html:9
+msgid "Rev Makulelle Sugathananda Thero"
+msgstr ""
+
+#: instructors/templates/instructors/sugathananda_thero.html:20
+msgid ""
+"I have completed English medium B.A degree in Buddhist and Pāli University "
+"of Sri Lanka and followed English Language &Literature, Buddhist Philosophy "
+"and Pali as the subjects. Advanced Certificate Course in English was "
+"completed. I have completed one-year English medium MA degree (Buddhist "
+"Studies) in University of Kelaniya. I continue two-year English medium MA "
+"degree (Linguistics) in University of Kelaniya(one year finished). I have "
+"presented two presentations in the conferences held at our University. I "
+"have been regularly teaching in the English workshops for the Pirivena "
+"students conducted by the Department of English. I was the editor of "
+"‘’AURORA” (Journal of English Studies) in 2016.  "
+msgstr ""
+
+#: instructors/templates/instructors/sugathananda_thero.html:24
+msgid "Geographical Expansion of Therayada Buddhism "
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:11
+msgid "Announcing the Launch of Our New Website"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:12
+msgid ""
+"We are delighted to announce the launch of our website for Buddhist and Pali "
+"College Hachioji Tokyo (BPCHT) on 5th Jan 2021. The new site launch is "
+"available, and the URL is www.bpcht.org."
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:13
+msgid ""
+"Our goal with this new website is to quickly provide information about "
+"available courses and link with other institutions to promote BPCHT."
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:14
+msgid ""
+"Currently, the site is only in English and expected to an extent in both "
+"Japanese and Sinhalese."
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:15
+msgid ""
+"Moreover, the website is provided with the courtesy of Dream Delight, Inc., "
+"and we would like to offer our heartful gratitude for their kind "
+"contribution."
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:20
+msgid "Parent institute"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:21
+msgid "Buddhist and Pali University of Sri Lanka"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:23
+msgid "Other Sistering institutes"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:24
+msgid "The Buddhist and Pali College of Singapore"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:26
+msgid ""
+"For any questions, suggestions, feedback, or comments, please contact us "
+"today.  Thank You!"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:28
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact:"
+msgstr "අප අමතන්න"
+
+#: notice/templates/notice/notice_1.html:29
+msgid "Buddhist and Pali College Hachioji Tokyo (BPCHT)"
+msgstr ""
+
+#: notice/templates/notice/notice_1.html:30
+msgid "Mail"
 msgstr ""
 
 #: paliuniversity/settings.py:149
 msgid "Sinhala"
+msgstr ""
+
+#: student/templates/student/login.html:15
+msgid "Login"
+msgstr ""
+
+#: student/templates/student/login.html:23
+#: student/templates/student/registration.html:43
+msgid "Password"
+msgstr ""
+
+#: student/templates/student/login.html:26
+msgid "Remember me"
+msgstr ""
+
+#: student/templates/student/login.html:28
+msgid "Sign in"
+msgstr ""
+
+#: student/templates/student/login.html:29
+#: student/templates/student/registration.html:51
+msgid "Register"
+msgstr ""
+
+#: student/templates/student/profile.html:8
+msgid "Logout"
+msgstr ""
+
+#: student/templates/student/registration.html:17
+msgid "Registration"
+msgstr ""
+
+#: student/templates/student/registration.html:23
+msgid "First Name"
+msgstr ""
+
+#: student/templates/student/registration.html:28
+msgid "Last Name"
+msgstr ""
+
+#: student/templates/student/registration.html:33
+msgid "User Name"
+msgstr ""
+
+#: student/templates/student/registration.html:47
+msgid "Confirm Password"
 msgstr ""
