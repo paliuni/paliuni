@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="container">
+	<div class="row">
+	    <div class="blog pt-5">
+		<h2>{% trans "Dr.Liyanage Dona Shyamini Dilrukshi " %}</h2>
+	    </div>
+	</div>
+    </div>
+</div>
+<section id="services">
+    <div class="container">
+	<div class="row">
+	    <div class="col">
+		<div class="box wow fadeInRight">
+		    <div class="icon"><img class="lec_img mr-5" src="/media/Devananda_Thero.jpg"/></div>
+		    <p class="description ml-0">{% trans "A committed lecturer with successful completion of Bachelor of Business Administration Degree (University of Peradeniya, Sri-Lanka) and master of international Business (University of West of Scotland). Possessing excellent administrative, verbal, communication and written skills along with constructive and effective teaching methods which promote a stimulating learning environment." %}</p>
+		    <br>
+		    <div class="ml-0"> 
+			<h4>{% trans " Subjects: " %}</h4>
+			<p>{% trans "Geographical expansion of Theravada Buddhism" %}</p>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+</section>
+<div class="d-flex flex-row-reverse">
+    <div class="p-2">
+	<a href="https://www.facebook.com/sharer/sharer.php?u=http://pali.dreamdelight.co.jp/instructor/Dr.Liyanage-Dona-Shyamini-Dilrukshi">
+	    <i class="fa fa-facebook pr-2"></i>
+	</a>
+    </div>
+</div>
+{% endblock %}

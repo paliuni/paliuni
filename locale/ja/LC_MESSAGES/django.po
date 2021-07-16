@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 12:34+0000\n"
+"POT-Creation-Date: 2021-07-16 11:05+0000\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgid ""
 "veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram "
 "noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export "
 "irure minim illum fore"
-msgstr ""
+msgstr "私はプラバートです私はプラバートです。。"
 
 #: blog/templates/blog/blog.html:30
 msgid "Comments..."
@@ -38,7 +38,7 @@ msgstr ""
 #: blog/templates/blog/blog.html:32 blog/templates/blog/blog.html:37
 #: blog/templates/blog/comment.html:8 blog/templates/blog/comment.html:24
 msgid "Add Comment"
-msgstr ""
+msgstr "コメント追加"
 
 #: blog/templates/blog/blog.html:35
 msgid "No comments yet"
@@ -46,20 +46,20 @@ msgstr ""
 
 #: blog/templates/blog/comment.html:16
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: blog/templates/blog/comment.html:20
 msgid "Comment"
-msgstr ""
+msgstr "コメント"
 
 #: blog/templates/blog/comment.html:27
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 #: blog/templates/blog/index.html:29
 #: courseinfo/templates/courseinfo/material.html:9
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:12
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:12
@@ -68,7 +68,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:12
 #: courseinfo/templates/courseinfo/phd.html:12
 msgid "Course Name"
-msgstr ""
+msgstr "コース名"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:13
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:13
@@ -76,8 +76,9 @@ msgstr ""
 #: courseinfo/templates/courseinfo/ma_2year.html:13
 #: courseinfo/templates/courseinfo/mphil.html:13
 #: courseinfo/templates/courseinfo/phd.html:13
+#: home/templates/home/index.html:188
 msgid "Diploma in Buddhism"
-msgstr ""
+msgstr "仏教学ディプローマ"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:15
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:15
@@ -86,7 +87,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:15
 #: courseinfo/templates/courseinfo/phd.html:15
 msgid "Course Content"
-msgstr ""
+msgstr "コース内容"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:17
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:17
@@ -95,7 +96,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:17
 #: courseinfo/templates/courseinfo/phd.html:17
 msgid "Early Buddhism - Basic Doctrines"
-msgstr ""
+msgstr "初期仏教ー基礎"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:18
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:18
@@ -104,7 +105,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:18
 #: courseinfo/templates/courseinfo/phd.html:18
 msgid "Buddhist Social Dimensions"
-msgstr ""
+msgstr "仏教の社会的側面"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:19
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:19
@@ -113,7 +114,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:19
 #: courseinfo/templates/courseinfo/phd.html:19
 msgid "Geographical Expansion of Theravada Buddhism"
-msgstr ""
+msgstr "上座部仏教の地理的拡大"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:20
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:20
@@ -131,7 +132,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:21
 #: courseinfo/templates/courseinfo/phd.html:21
 msgid "Pali Qualifying Paper (Optional)"
-msgstr ""
+msgstr "基本的なパーリ語（英語で行います）"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:24
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:24
@@ -160,7 +161,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:27
 #: courseinfo/templates/courseinfo/phd.html:27
 msgid "Fees"
-msgstr ""
+msgstr "学費"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:29
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:29
@@ -171,7 +172,7 @@ msgstr ""
 msgid ""
 "¥5,700 - Registration Fees - Buddhist and Pali University, Sri Lanka (in USD "
 "only)"
-msgstr ""
+msgstr "スリランカ仏教学パリ語大学の登録費　約¥5,700（お支払いは USDでのみ）"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:30
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:30
@@ -200,7 +201,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:34
 #: courseinfo/templates/courseinfo/phd.html:34
 msgid "Registration Date"
-msgstr ""
+msgstr "登録期間"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:35
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:35
@@ -209,7 +210,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:35
 #: courseinfo/templates/courseinfo/phd.html:35
 msgid "1 Aug to 30 Sep"
-msgstr ""
+msgstr "８月１日から９月３０日まで"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:37
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:37
@@ -218,7 +219,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:37
 #: courseinfo/templates/courseinfo/phd.html:37
 msgid "How To register"
-msgstr ""
+msgstr "登録方法"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:38
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:38
@@ -227,7 +228,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:38
 #: courseinfo/templates/courseinfo/phd.html:38
 msgid "Required documents:"
-msgstr ""
+msgstr "登録のために必要な資料"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:40
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:40
@@ -236,7 +237,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:40
 #: courseinfo/templates/courseinfo/phd.html:40
 msgid "Application form"
-msgstr ""
+msgstr "申込書"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:40
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:40
@@ -245,7 +246,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:40
 #: courseinfo/templates/courseinfo/phd.html:40
 msgid "(Click here to download the Application)"
-msgstr ""
+msgstr "（申込書をダウンロードするにはこちらをクリック"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:41
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:41
@@ -254,7 +255,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:41
 #: courseinfo/templates/courseinfo/phd.html:41
 msgid "CV/Personal resume *Free format, 1-3 sheets of A4 paper"
-msgstr ""
+msgstr "履歴書の英文＊フリーフォーマットA4用紙で１〜３ページ"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:42
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:42
@@ -312,7 +313,7 @@ msgstr ""
 #: courseinfo/templates/courseinfo/mphil.html:53
 #: courseinfo/templates/courseinfo/phd.html:53
 msgid "Remarks"
-msgstr ""
+msgstr "備考"
 
 #: courseinfo/templates/courseinfo/ba_1year.html:54
 #: courseinfo/templates/courseinfo/dip_in_buddhism.html:54
@@ -323,7 +324,7 @@ msgstr ""
 msgid ""
 "Successful candidates are eligible to proceed to the 3-year Bachelor of Arts "
 "(BA) and then the 1-year Master of Arts (MA) in Buddhist Studies."
-msgstr ""
+msgstr "本コースを修了者は３年間の学部コースに進学する資格となります。"
 
 #: home/templates/home/base.html:74
 msgid "Home"
@@ -331,7 +332,7 @@ msgstr "ホーム"
 
 #: home/templates/home/base.html:75 home/templates/home/index.html:150
 msgid "Why BPCHT"
-msgstr ""
+msgstr "仏教学パリ語カレッジの特徴"
 
 #: home/templates/home/base.html:76 home/templates/home/index.html:165
 #, fuzzy
@@ -341,17 +342,17 @@ msgstr "我が使命"
 
 #: home/templates/home/base.html:77 home/templates/home/index.html:183
 msgid "Available Course"
-msgstr ""
+msgstr "利用可能なコース"
 
 #: home/templates/home/base.html:78 home/templates/home/index.html:78
 #: home/templates/home/index.html:211
 msgid "Notices"
-msgstr ""
+msgstr "お知らせ"
 
 #: home/templates/home/base.html:80 home/templates/home/index.html:80
 #: home/templates/home/index.html:257
 msgid "Staff"
-msgstr ""
+msgstr "職員"
 
 #: home/templates/home/base.html:91 home/templates/home/index.html:91
 msgid "Contact"
@@ -359,22 +360,24 @@ msgstr "お問い合わせ"
 
 #: home/templates/home/index.html:74
 msgid "home"
-msgstr ""
+msgstr "ホーム"
 
 #: home/templates/home/index.html:75
 msgid "why bpcht"
-msgstr ""
+msgstr "学校について"
 
 #: home/templates/home/index.html:76
 msgid "about bpcht"
-msgstr ""
+msgstr "学校について"
 
 #: home/templates/home/index.html:77
 msgid "available course"
-msgstr ""
+msgstr "利用可能なコース"
 
 #: home/templates/home/index.html:122
-msgid "Buddhist and Pali College Hachioji Tokyo"
+#, fuzzy
+#| msgid "Buddhist and Pali College Hachioji Tokyo"
+msgid "Buddhist and Pali College of Hachioji in Tokyo"
 msgstr "東京八王子仏教パリ語カレッジ"
 
 #: home/templates/home/index.html:151
@@ -384,6 +387,9 @@ msgid ""
 "Buddhist and Pali University in Sri Lanka took the necessary action to "
 "deliver this national heritage to the world."
 msgstr ""
+"rasnga srimal udawaththa pallekanda walasmullai, rasnga srimal udawaththa "
+"pallekanda walasmulla rasnga srimal udawaththa pallekanda walasmulla rasnga "
+"srimal udawaththa pallekanda walasmulla"
 
 #: home/templates/home/index.html:153
 msgid ""
@@ -426,6 +432,26 @@ msgstr ""
 msgid ""
 "To provide tertiary education in Buddhist Studies leading to award Diploma, "
 "BA, MA of the Buddhist &amp; Pali University of Sri Lanka and Ph. D."
+msgstr ""
+
+#: home/templates/home/index.html:189
+msgid "Bacheler of Arts Degree (Buddhist Studies)  3Years"
+msgstr "rasanga srimal 123445"
+
+#: home/templates/home/index.html:190
+msgid "Master of Arts Degree (Buddhist Studies)  1Year"
+msgstr ""
+
+#: home/templates/home/index.html:191
+msgid "Master of Arts Degree (Buddhist Studies)  2Years"
+msgstr ""
+
+#: home/templates/home/index.html:192
+msgid "M.Phil Degree Program"
+msgstr ""
+
+#: home/templates/home/index.html:193
+msgid "Ph.D Degree  Program"
 msgstr ""
 
 #: home/templates/home/index.html:373

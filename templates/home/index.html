@@ -1,0 +1,310 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+{% block content %} 
+
+<!--========================== Intro Section ============================-->
+<section id="intro">
+    <div class="intro-content">
+	<h2 class="">{% trans "Buddhist and Pali College of Hachioji in Tokyo" %}<span></span><br>(BPCHT)</h2>
+    </div>
+    <div id="intro-carousel" class="owl-carousel" >
+	<div class="item" style="background-image: url('/media/paliuni.jpg"></div>
+    </div>
+</section><!-- #intro -->
+
+<main id="main">
+
+<!--========================== About Section ============================-->
+<section id="why" class="wow fadeInUp pt-5">
+    <div class="container">
+	<div class="row">
+	    <div class="section-header">
+		<h2>{% trans "Why BPCHT" %}</h2>
+		<p>{% blocktranslate %}Early Buddhism, which has a vast collection of best teachings for self-improvement had been preserved in Sri Lanka for more than 2600 years. Buddhist and Pali University in Sri Lanka took the necessary action to deliver this national heritage to the world.{% endblocktranslate %}</p>
+		<br>
+		<p>{% trans "However, to transfer this knowledge, Language is a big obstacle—however, Ven.Yalagamuwe Dhammissara Anunayaka Thero took this challenge to enlightening Japanese people in English and Japanese. Now you have a great opportunity to take various Dhamma courses from Buddhist and Pali University in Sri Lanka, living in Japan.  Most courses are conducting online, and all the examinations are held in Japan. The tuition fees are also very reasonable." %}</p>
+		<br>
+		<p>{% trans "So, we invite all of you to join us and use the teachings for your self-improvement. May the triple Gems be blessing you!!" %}</p>
+	    </div>
+	</div>
+    </div>
+</section>
+
+<section id="about" class="wow fadeInUp">
+    <div class="container">
+	<div class="row">
+	    <div class="section-header">
+		<h2>{% trans "About BPCHT" %}</h2>
+		<p>{% trans "Buddhist and Pali College Hachioji Tokyo (BPCHT) was established in Japan as an affiliated institute of Welcome to the Buddhist and Pali University of Sri Lanka in 2020.  BPCHT is authorized to have lectures and examinations and give necessary guidance regarding degree and diploma programs in the Buddhist and Pali University of Sri Lanka." %}</p>
+		<br>
+		<h3>{% trans "Vision" %}</h3>
+		<p>{% trans "Delivering Dhamma in Japan in formal education manner." %}</p>
+		<br>
+		<h3>{% trans "Mission" %}</h3>
+		<p>{% trans "To provide tertiary education in Buddhist Studies leading to award Diploma, BA, MA of the Buddhist &amp; Pali University of Sri Lanka and Ph. D." %}</p>
+	    </div>
+	</div>
+    </div>
+</section><!-- #about -->
+
+
+<section id="japanese" class="wow fadeInUp pt-5">
+    <div class="container">
+	<div class="row">
+	    <div class="section-header col-12 p-0">
+		<h2>{% trans "Available Course" %}</h2>
+	    </div>
+		</br>
+		<div class="col-lg-6 content courses">
+		    <ul>
+			<li><i class="fa fa-check-circle"></i><a href="/courseinfo/deploma-in-buddhism/">{% trans "Diploma in Buddhism" %}</a></li>
+			<li><i class="fa fa-check-circle"></i><a href="/courseinfo/BA-1year/">{% trans "Bacheler of Arts Degree (Buddhist Studies)  3Years" %}</a></li>
+			<li><i class="fa fa-check-circle"></i><!-- <a href="/courseinfo/MA-1year/"> --><a>{% trans "Master of Arts Degree (Buddhist Studies)  1Year" %}</a></li>
+			<li><i class="fa fa-check-circle"></i><!-- <a href="/courseinfo/MA-2year/"> --><a>{% trans "Master of Arts Degree (Buddhist Studies)  2Years" %}</a></li>
+			<li><i class="fa fa-check-circle"></i><!-- <a href="/courseinfo/M.Phil/"> --><a>{% trans "M.Phil Degree Program" %}</a></li>
+			<li><i class="fa fa-check-circle"></i><!-- <a href="/courseinfo/Ph.D/"> --><a>{% trans "Ph.D Degree  Program" %}</a></li>
+		    </ul>
+
+		</div>
+		<div class="col-lg-6 japanese-img">
+		    <img src="/media/buddha.jpg" alt="">
+		</div>
+	</div>
+
+    </div>
+</section>
+
+<!--========================== Our Portfolio Section ============================-->
+
+<section id="portfolio" class="wow fadeInUp">
+    <div class="container">
+	<div class="section-header">
+	    <h2>{% trans "Notices" %}</h2>
+	</div>
+	<div class="row">
+	    <div class="col-lg-6">
+		<div class="box wow fadeInRight">
+		    <h4 class="title"><a href="/notice/notice-1">{% trans "Announcing the Launch of Our New Website" %}</a></h4>
+		    <p> 2021/01/01 </p>
+		</div>
+	    </div>
+	</div>
+    </div>
+</section>
+<!-- #portfolio -->
+
+<!--========================== Services Section ============================-->
+<section id="services">
+    <div class="container">
+	<div class="section-header">
+	    <h2>{% trans "Blog" %}</h2>
+	    <p>{% trans "Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore" %}</p>
+	</div>
+
+	<div class="row">
+	    {% for blog in blogs %}
+	    <div class="col-lg-6">
+		<div class="box wow fadeInRight">
+		    <!--
+	  <div class="icon"><img class="blog_img" src="{{ blog.thumb.url }}"/></div>
+		    -->
+		    <h4 class="title"><a href="{% url 'detail' slug=blog.slug %}">{{ blog.title }}</a></h4>
+		    <p class="description">{{ blog.snippet }}</p>
+		</div>
+	    </div>
+	    {% endfor %}
+
+	</div>
+	<a href="/blog/" type="button" class="btn btn-outline">{% trans "Read More" %}</a>
+    </div>
+
+</section><!-- #services -->
+
+<section id="team" class="wow fadeInUp">
+    <div class="container">
+	<div class="section-header">
+	    <h2>{% trans "Staff" %}</h2>
+	</div>
+	<div class="row">
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Dhammissara-Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Ven.Yalagamuwe-Dhammissara-Anunayaka-Thero/">
+			    <h4 class="text-white">Ven.Yalagamuwe Dhammissara Anunayaka Thero</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Dr.Bhanthe-Bokanoruwe-Devananda-Thero/">
+			    <h4 class="text-white">Dr. Bhanthe Bokanoruwe Devananda Thero</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Seewaleedhamma-Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Ven.Paranagama-Seewaleedhamma-Thero/">
+			    <h4 class="text-white">Ven. Paranagama Seewaleedhamma Thero</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Dr.Bhanthe-Kardetiyana-Gunaratana-Thero/">
+			    <h4 class="text-white">Dr. Bhanthe Kardetiyana Gunaratana Thero</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Rev-Makulelle-Sugathananda-Thero/">
+			    <h4 class="text-white">Rev Makulelle Sugathananda Thero</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-lg-4 col-md-4">
+		<div class="member">
+		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
+		    <div class="details">
+			<a href="/instructor/Dr.Liyanage-Dona-Shyamini-Dilrukshi/">
+			    <h4 class="text-white">Dr.Liyanage Dona Shyamini Dilrukshi</h4>
+			</a>
+			<span></span>
+			<div class="social">
+			    <a href=""><i class="fa fa-twitter"></i></a>
+			    <a href=""><i class="fa fa-facebook"></i></a>
+			    <a href=""><i class="fa fa-google-plus"></i></a>
+			    <a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+
+    </div>
+</section><!-- #team -->
+
+<!--========================== Contact Section ============================-->
+
+<section id="contact" class="wow fadeInUp">
+    <div class="container">
+	<div class="section-header">
+	    <h2>{% trans "Contact Us" %}</h2>
+	    <p>{% trans "Please feel free to contact us" %}</p>
+	</div>
+	<div class="row contact-info">
+	    <div class="col-md-4">
+		<div class="contact-address">
+		    <i class="fa fa-map-marker" aria-hidden="true"></i>
+		    <h3>{% trans "Address" %}</h3>
+		    <address>{% trans "Shouzanji 1693-2 Yamatamachi, Hachioji-shi, Tokyo 193-0933, Japan" %}</address>
+		</div>
+	    </div>
+	    <div class="col-md-4">
+		<div class="contact-phone">
+		    <i class="fa fa-phone" aria-hidden="true"></i>
+		    <h3>{% trans "Phone Number" %}</h3>
+		    <p><a href="tel:＋81426677042">＋81‐42-667-7042 </a></p>
+		</div>
+	    </div>
+	    <div class="col-md-4">
+		<div class="contact-email">
+		    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+		    <h3>{% trans "Email" %}</h3>
+		    <p><a href="mailto:bpcht.japan@gmail.com">bpcht.japan@gmail.com</a></p>
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div class="container mb-4">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202.65590109450306!2d139.31334!3d35.6401885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191c3ab6e314bd%3A0x612fe08197578fca!2zU2jFjXphbi1qaSDgtrbgt57gtq_gt4rgtrAg4LeA4LeS4LeE4LeP4La74La6!5e0!3m2!1sen!2slk!4v1608029168457!5m2!1sen!2slk" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="container">
+	<div class="row">
+	    <div class="col-lg-8">
+		<form method="post">
+		    {% csrf_token %}
+		    <div class="form-group mt-5">
+			<label for="exampleInputPassword1">{% trans "Name" %}</label>
+			{{ form.name }}
+		    </div>
+		    <div class="form-group">
+			<label for="exampleInputEmail1">{% trans "Email address" %}</label>
+			{{ form.email }}
+		    </div>
+		    <div class="form-group">
+			<label for="exampleInputEmail1">{% trans "Phone Number" %}</label>
+			{{ form.mobile }}
+		    </div>
+		    <div class="form-group">
+			<label for="exampleInputPassword1">{% trans "Message" %}</label>
+			{{ form.message }}
+		    </div>
+		    <div class="form">
+			<div class=""><button type="submit">{% trans "Send Message" %}</button></div>
+		    </div>
+		</form>
+	    </div>
+	</div>
+    </div>
+</section><!-- #contact -->
+<div class="d-flex flex-row-reverse">
+    <div class="p-2">
+	<a href="https://www.facebook.com/sharer/sharer.php?u=http://pali.dreamdelight.co.jp/home">
+	    <i class="fa fa-facebook pr-2"></i>
+	</a>
+    </div>
+</div>
+</main>
+
+{% endblock content %}
+

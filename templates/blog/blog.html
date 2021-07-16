@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block content %}
+<section id="services">
+    <div class="container">
+	<div class="section-header">
+	    <h2>{% trans "Blog" %}</h2>
+	    <p>{% trans "Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore" %}</p>
+	</div>
+
+	<div class="container">
+	    <div class="row">
+		<div class="blog pt-5">
+		    <h2><a href=""> {{ blog.title }}</a></h2>
+		    <img class="blog-page-img mb-4" src="{{ blog.thumb.url }}"/>
+		    <h5>{{ blog.body }}</h5>
+		    <a href="https://www.facebook.com/sharer/sharer.php?u=http://pali.dreamdelight.co.jp{% url 'detail' slug=blog.slug %}">
+			<i class="fa fa-facebook pr-2"></i>
+		    </a>
+		    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://contactus.dreamdelight.co.jp{% url 'detail' slug=blog.slug %}&title={{ blog.title }}&summary={{ blog.body }}&source=http://contactus.dreamdelight.co.jp{% url 'detail' slug=blog.slug %}">
+			<i class="fa fa-linkedin pr-2" aria-hidden="true"></i>
+		    </a>
+		    <a href="https://twitter.com/home?status=I'm%20going%20to%20learn%20to%20Code...%20Come%20build%20an%20web%20apsp%20with%20me!%20%23CFE%20and%20@justinmitchel%20">
+			<i class="fa fa-twitter"></i>
+		    </a>
+		    </br>
+		    </br>
+		    </br>
+		    <h3>{% trans "Comments..." %}</h3>
+		    {% if not blog.comments.all %}
+		    <a href="{% url 'detail' slug=blog.slug %}/comment">{% trans "Add Comment" %}</a>
+		    </br>
+		    </br>
+		    {% trans "No comments yet" %}
+		    {% else %}
+		    <a href="{% url 'detail' slug=blog.slug %}/comment">{% trans "Add Comment" %}</a>
+		    </br>
+		    </br>
+		    {% for comment in blog.comments.all %}
+		    <strong> {{ comment.name }} - {{ comment.date_added }} </strong>
+		    <br/>
+		    {{ comment.body }}
+		    <br/>
+		    {% endfor %}
+		    {% endif %}
+		</div>
+	    </div>
+	</div>
+    </div>
+
+</section><!-- #services -->
+
+{% endblock %}

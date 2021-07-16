@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<div class="container my-5">
+    <img class="pdf_img" src="/media/pdf.png">
+    </br>
+    <a href="/media/test.pdf" download="/media/test.pdf">{% trans "Download" %}</a>
+</div>
+
+{% endblock %}
