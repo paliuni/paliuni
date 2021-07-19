@@ -126,110 +126,26 @@
 	    <h2>{% trans "Staff" %}</h2>
 	</div>
 	<div class="row">
+	    {% for instructor in instructors %}
 	    <div class="col-lg-4 col-md-4">
 		<div class="member">
-		    <div class="pic"><img src="/media/Dhammissara-Thero.jpg" alt=""></div>
+			<div class="pic"><img width="100%" height=500px src="{{ instructor.image.url }}" alt=""></div>
 		    <div class="details">
-			<a href="/instructor/Ven.Yalagamuwe-Dhammissara-Anunayaka-Thero/">
-			    <h4 class="text-white">Ven.Yalagamuwe Dhammissara Anunayaka Thero</h4>
+			<a href="/instructor/{{ instructor.slug }}/">
+			    <h4 class="text-white">{{ instructor.name }}</h4>
 			</a>
 			<span></span>
 			<div class="social">
+			    <a href="{{ instructor.facebook }}"><i class="fa fa-facebook"></i></a>
+			    <a href="{{ instructor.linkedin }}"><i class="fa fa-linkedin"></i></a>
 			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
 			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
 			</div>
 		    </div>
 		</div>
 	    </div>
-	    <div class="col-lg-4 col-md-4">
-		<div class="member">
-		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
-		    <div class="details">
-			<a href="/instructor/Dr.Bhanthe-Bokanoruwe-Devananda-Thero/">
-			    <h4 class="text-white">Dr. Bhanthe Bokanoruwe Devananda Thero</h4>
-			</a>
-			<span></span>
-			<div class="social">
-			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
-			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
-			</div>
-		    </div>
-		</div>
-	    </div>
-	    <div class="col-lg-4 col-md-4">
-		<div class="member">
-		    <div class="pic"><img src="/media/Seewaleedhamma-Thero.jpg" alt=""></div>
-		    <div class="details">
-			<a href="/instructor/Ven.Paranagama-Seewaleedhamma-Thero/">
-			    <h4 class="text-white">Ven. Paranagama Seewaleedhamma Thero</h4>
-			</a>
-			<span></span>
-			<div class="social">
-			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
-			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
-			</div>
-		    </div>
-		</div>
-	    </div>
-	    <div class="col-lg-4 col-md-4">
-		<div class="member">
-		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
-		    <div class="details">
-			<a href="/instructor/Dr.Bhanthe-Kardetiyana-Gunaratana-Thero/">
-			    <h4 class="text-white">Dr. Bhanthe Kardetiyana Gunaratana Thero</h4>
-			</a>
-			<span></span>
-			<div class="social">
-			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
-			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
-			</div>
-		    </div>
-		</div>
-	    </div>
-	    <div class="col-lg-4 col-md-4">
-		<div class="member">
-		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
-		    <div class="details">
-			<a href="/instructor/Rev-Makulelle-Sugathananda-Thero/">
-			    <h4 class="text-white">Rev Makulelle Sugathananda Thero</h4>
-			</a>
-			<span></span>
-			<div class="social">
-			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
-			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
-			</div>
-		    </div>
-		</div>
-	    </div>
-	    <div class="col-lg-4 col-md-4">
-		<div class="member">
-		    <div class="pic"><img src="/media/Devananda_Thero.jpg" alt=""></div>
-		    <div class="details">
-			<a href="/instructor/Dr.Liyanage-Dona-Shyamini-Dilrukshi/">
-			    <h4 class="text-white">Dr.Liyanage Dona Shyamini Dilrukshi</h4>
-			</a>
-			<span></span>
-			<div class="social">
-			    <a href=""><i class="fa fa-twitter"></i></a>
-			    <a href=""><i class="fa fa-facebook"></i></a>
-			    <a href=""><i class="fa fa-google-plus"></i></a>
-			    <a href=""><i class="fa fa-linkedin"></i></a>
-			</div>
-		    </div>
-		</div>
-	    </div>
+	    {% endfor %}
 	</div>
-
     </div>
 </section><!-- #team -->
 

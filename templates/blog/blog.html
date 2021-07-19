@@ -14,7 +14,7 @@
 		<div class="blog pt-5">
 		    <h2><a href=""> {{ blog.title }}</a></h2>
 		    <img class="blog-page-img mb-4" src="{{ blog.thumb.url }}"/>
-		    <h5>{{ blog.body }}</h5>
+		    <h5>_{{ blog.body }}</h5>
 		    <a href="https://www.facebook.com/sharer/sharer.php?u=http://pali.dreamdelight.co.jp{% url 'detail' slug=blog.slug %}">
 			<i class="fa fa-facebook pr-2"></i>
 		    </a>

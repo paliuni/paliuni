@@ -332,7 +332,7 @@ msgstr "ホーム"
 
 #: home/templates/home/base.html:75 home/templates/home/index.html:150
 msgid "Why BPCHT"
-msgstr "仏教学パリ語カレッジの特徴"
+msgstr "なぜ BPCHT"
 
 #: home/templates/home/base.html:76 home/templates/home/index.html:165
 #, fuzzy
